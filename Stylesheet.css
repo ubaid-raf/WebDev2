@@ -1,0 +1,49 @@
+/* CSS Document */
+header{
+	/* [disabled]align-self: flex-start; */
+	position: fixed;
+	align-items: center;
+	align-content: center;
+	width: 100%;
+	flex: 1;
+	text-align: center;
+	background-image: linear-gradient(to top right, pink, rgba(23,119,189,1.00));
+/*	color: */
+/*	background-color: rgba(189,162,24,1.00);*/
+}
+.brandlogolink h1{
+	font-family: "alex-brush", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	display: inline;
+	vertical-align: super;
+	padding-left: 10px
+}
+body, html{
+	padding: 0;
+	margin: 0;
+	background-color: beige;
+}
+.topbar {
+	top: 0px;
+	height: 100px;
+	align-content: space-between;
+	vertical-align: middle;
+}
+.navbar button{
+	background-color: rgba(248,187,44,0.50);
+	padding: 5px;
+	border-radius: 10px;
+	margin: auto 5px;
+}
+.brandlogo{
+	display: inline-block;
+	border-radius: 50%;
+	max-height: 50px;
+}
+.brandlogolink{
+	text-decoration: none;
+	color: lightpink;
+}
+.navbar button:disabled{
+	background-color: rgba(23,119,189,0.5);
+	color: pink;
+}
